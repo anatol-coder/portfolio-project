@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #3e7b27;
+  --primary-color: #6a9c89;
   --secondary-color: #cb6040;
   --headings-font: "Roboto", serif;
   --big-headings-color: #d4d925;
@@ -14,7 +14,7 @@ h1 {
   text-align: center;
   font-style: bold;
   font-size: 72px;
-  margin-top: 29px;
+  margin-top: 20px;
 }
 h4 {
   font-family: (--headings-font);
