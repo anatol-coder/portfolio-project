@@ -1,9 +1,45 @@
 body {
-  background-color: aquamarine;
+  background-color: #257180;
 }
 h1 {
   font-family: "Roboto", serif;
+  color: #d4d925;
+  text-align: center;
+  font-style: bold;
+  font-size: 72px;
+  margin-top: 29px;
 }
-h2 {
-  font-family: "Montserrat", serif;
+h4 {
+  font-family: "Roboto", serif;
+  font-size: 24px;
+  font-style: bold;
+  color: #f2e5bf;
+  text-align: center;
+  margin-top: 176px;
+}
+.hero p {
+  margin: 30px;
+  text-align: center;
+  color: #f2e5bf;
+  font-size: 18px;
+  font-family: "Roboto", serif;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 16px;
+  margin-bottom: 45px;
+}
+.hero {
+  background-color: #257180;
+}
+.btn-branding {
+  display: block;
+  color: #f2e5bf;
+  padding: 25px;
+  border-color: aliceblue;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 40px;
+  background-color: #cb6040;
 }
