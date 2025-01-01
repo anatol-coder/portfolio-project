@@ -1,28 +1,35 @@
+:root {
+  --primary-color: #3e7b27;
+  --secondary-color: #cb6040;
+  --headings-font: "Roboto", serif;
+  --big-headings-color: #d4d925;
+  --small-headings-color: #f2e5bf;
+}
 body {
-  background-color: #257180;
+  background-color: var(--primary-color);
 }
 h1 {
-  font-family: "Roboto", serif;
-  color: #d4d925;
+  font-family: (--headings-font);
+  color: var(--big-headings-color);
   text-align: center;
   font-style: bold;
   font-size: 72px;
   margin-top: 29px;
 }
 h4 {
-  font-family: "Roboto", serif;
+  font-family: (--headings-font);
   font-size: 24px;
   font-style: bold;
-  color: #f2e5bf;
+  color: var(--small-headings-color);
   text-align: center;
   margin-top: 176px;
 }
 .hero p {
   margin: 30px;
   text-align: center;
-  color: #f2e5bf;
+  color: var(--small-headings-color);
   font-size: 18px;
-  font-family: "Roboto", serif;
+  font-family: (--headings-font);
 }
 img {
   display: block;
@@ -31,15 +38,15 @@ img {
   margin-bottom: 45px;
 }
 .hero {
-  background-color: #257180;
+  background-color: var(--primary-color);
 }
 .btn-branding {
   display: block;
-  color: #f2e5bf;
+  color: var(--small-headings-color);
   padding: 25px;
-  border-color: aliceblue;
+  border-color: var(--big-headings-color);
   width: 150px;
   margin: 0 auto;
   border-radius: 40px;
-  background-color: #cb6040;
+  background-color: var(--secondary-color);
 }
