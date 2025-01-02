@@ -1,16 +1,15 @@
 :root {
-  --primary-color: #6a9c89;
-  --secondary-color: #cb6040;
+  --primary-color: #16c47f;
+  --secondary-color: #e7fbb4;
   --headings-font: "Roboto", serif;
-  --big-headings-color: #d4d925;
-  --small-headings-color: #f2e5bf;
+  --small-headings-color: #f93827;
 }
 body {
   background-color: var(--primary-color);
 }
 h1 {
   font-family: (--headings-font);
-  color: var(--big-headings-color);
+  color: var(--secondary-color);
   text-align: center;
   font-style: bold;
   font-size: 72px;
@@ -44,7 +43,7 @@ img {
   display: block;
   color: var(--small-headings-color);
   padding: 25px;
-  border-color: var(--big-headings-color);
+  border-color: var(--secondary-color);
   width: 150px;
   margin: 0 auto;
   border-radius: 40px;
