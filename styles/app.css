@@ -54,6 +54,27 @@ img {
   color: var(--secondary-color);
   background-color: var(--small-headings-color);
 }
+.them-about {
+  margin-top: 50px;
+}
+.about-section h1 {
+  margin-top: 176px;
+  text-align: center;
+  color: var(--small-headings-color);
+  font-family: var(--headings-font);
+}
+.about-section h2 {
+  padding: 20px;
+  font-family: var(--headings-font);
+  font-style: italic;
+  color: var(--secondary-color);
+  text-align: center;
+}
+.about-section p {
+  text-align: center;
+  color: var(--secondary-color);
+  font-family: var(--headings-font);
+}
 
 @media (max-width: 500px) {
   .hero {
@@ -65,4 +86,7 @@ img {
   .them-both {
     display: none;
   }
+}
+.them-about {
+  margin-top: 50px;
 }
