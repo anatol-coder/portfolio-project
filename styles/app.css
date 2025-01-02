@@ -54,3 +54,15 @@ img {
   color: var(--secondary-color);
   background-color: var(--small-headings-color);
 }
+
+@media (max-width: 500px) {
+  .hero {
+    padding: 20px;
+  }
+  .container {
+    padding: 20px;
+  }
+  .them-both {
+    display: none;
+  }
+}
