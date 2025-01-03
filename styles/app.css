@@ -77,6 +77,10 @@ img {
 }
 
 @media (max-width: 500px) {
+  h1 {
+    font-size: 62px;
+  }
+
   .hero {
     padding: 20px;
   }
