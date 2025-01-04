@@ -107,6 +107,17 @@ img {
   background-color: #a64d79;
   color: #e7fbb4;
 }
+.photos-introduction h1 {
+  text-align: center;
+  font-family: (--headings-font);
+  color: var(--secondary-color);
+  margin-top: 176px;
+  font-size: 52px;
+  margin-bottom: 50px;
+}
+.dimensions {
+  height: 300px;
+}
 @media (max-width: 500px) {
   h1 {
     font-size: 62px;
