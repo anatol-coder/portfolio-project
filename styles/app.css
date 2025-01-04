@@ -150,7 +150,4 @@ img {
     max-width: 300px;
     margin: 10px auto;
   }
-  .gallery .image-to-hide {
-    display: none;
-  }
 }
