@@ -2,7 +2,8 @@
   --primary-color: #16c47f;
   --secondary-color: #e7fbb4;
   --headings-font: "Roboto", serif;
-  --small-headings-color: #f93827;
+  --small-headings-color: #2a004e;
+  --big-headings-color: #c62300;
 }
 body {
   background-color: var(--primary-color);
@@ -17,9 +18,9 @@ h1 {
 }
 h4 {
   font-family: (--headings-font);
-  font-size: 24px;
+  font-size: 34px;
   font-style: bold;
-  color: var(--small-headings-color);
+  color: var(--big-headings-color);
   text-align: center;
   margin-top: 176px;
 }
@@ -42,6 +43,8 @@ img {
 .btn-branding {
   display: block;
   color: var(--small-headings-color);
+  font-weight: bold;
+  font-size: smaller;
   padding: 25px;
   border: 1px #e7fbb4;
   width: 150px;
@@ -60,8 +63,9 @@ img {
 .about-section h1 {
   margin-top: 176px;
   text-align: center;
-  color: var(--small-headings-color);
+  color: var(--big-headings-color);
   font-family: var(--headings-font);
+  font-size: 52px;
 }
 .about-section h2 {
   padding: 20px;
@@ -72,7 +76,7 @@ img {
 }
 .about-section p {
   text-align: center;
-  color: var(--secondary-color);
+  color: var(--small-headings-color);
   font-family: var(--headings-font);
 }
 
