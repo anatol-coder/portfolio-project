@@ -8,6 +8,10 @@
 body {
   background-color: var(--primary-color);
 }
+a {
+  color: var(--secondary-color);
+  margin: 20px;
+}
 h1 {
   font-family: (--headings-font);
   color: var(--secondary-color);
