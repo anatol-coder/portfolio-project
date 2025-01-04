@@ -141,10 +141,16 @@ img {
     text-align: center;
     margin-left: 0;
   }
-  .photos-introduction {
-    font-size: 12px;
+  .photos-introduction h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
   }
   .dimensions {
-    height: 250px;
+    height: 200px;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+  .gallery .image-to-hide {
+    display: none;
   }
 }
