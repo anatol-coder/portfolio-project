@@ -77,7 +77,6 @@ img {
   font-size: 52px;
 }
 .about-section h2 {
-  padding: 20px;
   font-family: var(--headings-font);
   font-style: italic;
   color: var(--secondary-color);
@@ -112,7 +111,7 @@ img {
   font-family: (--headings-font);
   color: var(--secondary-color);
   margin-top: 176px;
-  font-size: 52px;
+  font-size: 72px;
   margin-bottom: 50px;
 }
 .dimensions {
@@ -141,5 +140,11 @@ img {
   .description {
     text-align: center;
     margin-left: 0;
+  }
+  .photos-introduction {
+    font-size: 12px;
+  }
+  .dimensions {
+    height: 250px;
   }
 }
