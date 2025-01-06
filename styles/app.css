@@ -69,21 +69,21 @@ img {
   display: block;
 }
 
-.about-section h1 {
+.content-container h1 {
   margin-top: 176px;
   text-align: center;
   color: var(--big-headings-color);
   font-family: var(--headings-font);
   font-size: 52px;
 }
-.about-section h2 {
+.content-container h2 {
   font-family: var(--headings-font);
   font-style: italic;
   color: var(--secondary-color);
   text-align: center;
   line-height: 1;
 }
-.about-section p {
+.content-container p {
   text-align: center;
   color: var(--small-headings-color);
   font-family: var(--headings-font);
@@ -117,6 +117,9 @@ img {
 .dimensions {
   height: 300px;
 }
+.description {
+  margin-top: 176px;
+}
 @media (max-width: 500px) {
   h1 {
     font-size: 62px;
@@ -139,7 +142,6 @@ img {
   }
   .description {
     text-align: center;
-    margin-left: 0;
   }
   .photos-introduction h1 {
     font-size: 25px;
@@ -149,5 +151,31 @@ img {
     height: 200px;
     max-width: 300px;
     margin: 10px auto;
+  }
+  .photos-introduction {
+    display: block;
+    margin: 10px auto;
+  }
+  .pav {
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+    margin-left: 60px;
+  }
+  .eating {
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+    margin-left: 60px;
+  }
+  .miasto {
+    display: block;
+    margin: 10px auto;
+    margin-left: 80px;
+  }
+  .lapki {
+    display: block;
+    margin: 10px auto;
+    margin-left: 80px;
   }
 }
