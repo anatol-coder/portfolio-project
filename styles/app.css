@@ -120,6 +120,14 @@ img {
 .description {
   margin-top: 176px;
 }
+.contact {
+  margin: 40px;
+}
+.contact-details {
+  text-align: center;
+  color: var(--big-headings-color);
+}
+
 @media (max-width: 500px) {
   h1 {
     font-size: 62px;
@@ -177,5 +185,10 @@ img {
     display: block;
     margin: 10px auto;
     margin-left: 80px;
+  }
+  .contact {
+    width: 250px;
+    display: block;
+    margin: 10px auto;
   }
 }
