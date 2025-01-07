@@ -120,12 +120,30 @@ img {
 .description {
   margin-top: 176px;
 }
+.content-container {
+  text-align: center;
+}
 .contact {
-  margin: 40px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 .contact-details {
   text-align: center;
   color: var(--big-headings-color);
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.contact-details h3 {
+  margin-top: 60px;
+}
+.description h1 {
+  margin-bottom: 60px;
+}
+.ustka {
+  margin-left: 0;
+  padding-left: 0;
+  width: 500px;
 }
 
 @media (max-width: 500px) {
