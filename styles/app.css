@@ -129,19 +129,24 @@ img {
   text-align: center;
 }
 .contact-details {
-  text-align: center;
+  text-align: left;
   color: var(--big-headings-color);
-  margin-top: 0px;
-  padding-top: 0px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
 }
 .contact-details h3 {
   margin-top: 60px;
+}
+.contact-details a {
+  padding: 0;
+  margin-left: 0;
 }
 .description h1 {
   margin-bottom: 60px;
 }
 .ustka {
-  margin-left: 0;
+  margin-left: 130px;
   padding-left: 0;
   width: 500px;
 }
@@ -207,6 +212,15 @@ img {
   .contact {
     width: 250px;
     display: block;
-    margin: 10px auto;
+    margin: 0px auto;
+  }
+  .ustka {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-details {
+    display: block;
+    margin: 0 auto;
+    margin-left: 20px;
   }
 }
