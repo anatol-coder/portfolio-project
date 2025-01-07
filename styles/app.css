@@ -61,11 +61,36 @@ img {
   color: var(--secondary-color);
   background-color: var(--small-headings-color);
 }
+nav {
+  display: flex;
+  justify-content: between;
+  padding: 45px;
+}
+.logo {
+  max-width: 150px;
+  margin-left: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+  color: var(--small-headings-color);
+}
+li {
+  margin-left: 10px;
+}
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--small-headings-color);
+}
 
 .them-about img {
   margin-top: 50px;
   border-radius: 70px;
-  border: var(--big-headings-color) 8px dotted;
+  border: var(--big-headings-color) 8px solid;
   display: block;
 }
 
@@ -133,7 +158,7 @@ img {
   color: var(--big-headings-color);
   margin: 0;
   padding: 0;
-  padding-left: 10px;
+  padding-left: 40px;
 }
 .contact-details h3 {
   margin-top: 60px;
@@ -222,5 +247,20 @@ img {
     display: block;
     margin: 0 auto;
     margin-left: 20px;
+  }
+  .logo {
+    display: none;
+  }
+  nav {
+    font-size: 14px;
+    padding-left: 3px;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  nav .small-logo {
+    max-width: 40px;
+    margin-left: 20px;
+    padding-top: 0;
+    margin-top: -7px;
   }
 }
