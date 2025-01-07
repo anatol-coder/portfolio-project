@@ -176,7 +176,35 @@ nav li.active a {
   padding-left: 0;
   width: 500px;
 }
-
+footer {
+  margin-bottom: 25px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--small-headings-color);
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--big-headings-color);
+  margin-top: 10px;
+}
+footer .social-links a {
+  color: var(--small-headings-color);
+  background-color: var(--secondary-color);
+  margin: 0 20px;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--small-headings-color);
+}
+.contact-box h4 {
+  margin-top: 0;
+  margin-right: 25px;
+}
 @media (max-width: 500px) {
   h1 {
     font-size: 62px;
