@@ -26,7 +26,7 @@ h4 {
   font-style: bold;
   color: var(--big-headings-color);
   text-align: center;
-  margin-top: 69px;
+  margin-top: 49px;
 }
 .hero p {
   margin: 30px;
@@ -238,7 +238,7 @@ footer .social-links a:hover {
   .dimensions {
     height: 200px;
     max-width: 300px;
-    margin: 10px auto;
+    margin: 5px auto;
   }
   .photos-introduction {
     display: block;
